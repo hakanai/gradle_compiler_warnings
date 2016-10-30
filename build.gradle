@@ -1,0 +1,15 @@
+
+apply plugin: 'antlr'
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  antlr 'org.antlr:antlr:3.5.2'
+}
+
+tasks.withType(JavaCompile) {
+  options.compilerArgs << "-Xlint:all,-serial"
+}
+
