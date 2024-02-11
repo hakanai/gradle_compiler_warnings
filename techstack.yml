@@ -1,0 +1,33 @@
+repo_name: hakanai/gradle_compiler_warnings
+report_id: 5108d82ea4284ce2d012c4771e5d03b3
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-11T01:35:18+00:00'
+requested_by: hakanai
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hakanai/gradle_compiler_warnings
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/hakanai/gradle_compiler_warnings/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Trejkaz (pen name)
+  last_updated_on: 2016-10-30 23:01:53.000000000 Z
